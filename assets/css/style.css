@@ -1,0 +1,125 @@
+    
+body {
+    background-color: #4aaaa5;
+    line-height: 1.5;
+}  
+
+nav {
+    background-color: white;
+    width: 100%;
+    border-style: hidden hidden solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    margin-left: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e0dede;
+    
+    
+}
+li {
+    display: inline;
+    padding: 10px;
+    
+      
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    color: #a19f9f;
+}
+
+hr {
+    margin: 0px 20px;
+    color: #dddddd;
+    height: 2px;
+    border: none;
+    background-color: #dddddd;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    
+}
+p {
+    text-align: justify;
+    overflow: visible;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    color: #cccccc;
+    width:100%;
+    height: 64px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    
+}
+
+#name {
+    width: 230px;
+    padding: 0;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 27px;
+    color: white;
+    
+
+}
+
+.logo {
+    float: left;
+    height: 58.5px;
+    width: 260px;
+    margin-left: 152px;
+    background-color: #4aaaa5;
+    text-align: center;
+
+
+}
+.container {
+    background-image: url("../images/white-waves.png");
+    height:496px;
+    
+}
+
+.content {
+    width: 960px;
+    margin: 20px 150px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 0.5px;
+    
+}
+
+.top {
+    color: #4aaaa5;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    font-size: 18px;
+}
+
+.row {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
