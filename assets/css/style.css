@@ -14,6 +14,8 @@ nav {
     border-style: hidden hidden solid;
     border-color: #cccccc;
     border-width: 1px;
+    position: relative;
+    
     
 }
 ul {
@@ -23,6 +25,8 @@ ul {
     margin-left: 850px;
     font-family: Arial, Helvetica, sans-serif;
     color: #e0dede;
+
+    
     
     
 }
@@ -37,7 +41,15 @@ li a {
     text-decoration: none;
     text-align: center;
     color: #a19f9f;
+    
+    
 }
+
+li a:hover {
+    color: #666666;
+}
+
+
 
 hr {
     margin: 0px 20px;
@@ -179,10 +191,21 @@ input[type=submit]:hover {
 }
 
 
+.images:hover {
+    height: 160px;
+    width: 160px;
+}
 img:hover {
     height: 160px;
     width: 160px;
 }
+
+.title:hover {
+    width:150px;
+    height: 20%;
+}
+
+
 
 
 
