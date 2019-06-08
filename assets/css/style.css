@@ -15,8 +15,6 @@ nav {
     border-color: #cccccc;
     border-width: 1px;
     position: relative;
-    
-    
 }
 ul {
     list-style-type: none;
@@ -24,11 +22,7 @@ ul {
     padding: 20px;
     margin-left: 850px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #e0dede;
-
-    
-    
-    
+    color: #e0dede; 
 }
 li {
     display: inline;
@@ -66,7 +60,8 @@ img {
 }
 p {
     text-align: justify;
-    overflow: visible;
+    overflow: scroll;
+    
 }
 
 footer {
@@ -74,13 +69,15 @@ footer {
     background-color: #666666;
     color: #cccccc;
     width:100%;
-    height: 65px;
-    position: absolute;
+    height: 62px;
+    position: fixed;
     bottom: 0;
     left: 0;
 
     
 }
+
+
 
 input[type=text], textarea {
     width: 97%;
@@ -135,8 +132,8 @@ input[type=submit]:hover {
 }
 .container {
     background-image: url("../images/white-waves.png");
-    height:496px;
-    
+    height:500px;
+       
 }
 
 .content {
@@ -195,7 +192,7 @@ input[type=submit]:hover {
     height: 160px;
     width: 160px;
 }
-img:hover {
+.port:hover {
     height: 160px;
     width: 160px;
 }
